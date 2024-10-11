@@ -1,8 +1,0 @@
-schema: https://beta.sosportom.ru/graphql/ # Укажи URL твоей схемы GraphQL
-documents: "./src/**/*.tsx" # Путь к файлам с GraphQL-запросами
-generates:
-  ./src/generated/graphql.tsx: # Место для сгенерированных типов
-    plugins:
-      - "typescript" # Генерация типов для TypeScript
-      - "typescript-operations" # Генерация типов для GraphQL операций
-      - "typescript-react-apollo" # Генерация хуков для Apollo Client
